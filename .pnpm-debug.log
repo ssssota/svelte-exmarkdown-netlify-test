@@ -1,0 +1,138 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "svelte-exmarkdown-netlify-test",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "vite dev",
+        "build": "vite build",
+        "package": "svelte-kit package",
+        "preview": "vite preview",
+        "prepare": "svelte-kit sync",
+        "check": "svelte-check --tsconfig ./tsconfig.json",
+        "check:watch": "svelte-check --tsconfig ./tsconfig.json --watch"
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-auto": "next",
+        "@sveltejs/kit": "next",
+        "@types/cookie": "^0.5.1",
+        "svelte": "^3.46.0",
+        "svelte-check": "^2.7.1",
+        "svelte-preprocess": "^4.10.6",
+        "tslib": "^2.3.1",
+        "typescript": "^4.7.4",
+        "vite": "^3.0.0"
+      },
+      "type": "module",
+      "dependencies": {
+        "@fontsource/fira-mono": "^4.5.0",
+        "cookie": "^0.4.1",
+        "svetlte-exmarkdown": "1"
+      }
+    },
+    "prefix": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "D:\\.pnpm-store\\v3",
+    "virtualStoreDir": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/tslib/2.4.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "tslib",
+      "rawSpec": "^2.3.1"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@types/cookie/0.5.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@types/cookie",
+      "rawSpec": "^0.5.1"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@types/cookie/0.5.1",
+    "requester": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/cookie/0.4.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "cookie",
+      "rawSpec": "^0.4.1"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "requester": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/tslib/2.4.0",
+    "requester": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test",
+    "status": "found_in_store"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/cookie/0.4.2",
+    "requester": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test",
+    "status": "found_in_store"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte-preprocess",
+      "rawSpec": "^4.10.6"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test",
+    "status": "resolved"
+  },
+  "14 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte-preprocess/4.10.7",
+    "requester": "D:\\Dev\\ghq\\github.com\\ssssota\\svelte-exmarkdown-netlify-test",
+    "status": "found_in_store"
+  },
+  "15 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "svetlte-exmarkdown is not in the npm registry, or you have no permission to fetch it.\n\nAn authorization header was used: Bearer 04d3[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer 04d347c5-2096-4fc1-95e0-3aa9de861af3",
+      "url": "https://registry.npmjs.org/svetlte-exmarkdown"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "svetlte-exmarkdown",
+    "spec": {
+      "fetchSpec": ">=1.0.0 <2.0.0-0",
+      "name": "svetlte-exmarkdown",
+      "type": "range"
+    },
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/svetlte-exmarkdown: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/svetlte-exmarkdown: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\tommy\\.node\\corepack\\pnpm\\7.3.0\\dist\\pnpm.cjs:85463:19)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
